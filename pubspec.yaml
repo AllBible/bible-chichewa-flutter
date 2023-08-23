@@ -1,0 +1,119 @@
+name: bible_chichewa
+description: A chichewa Bible library to get verses and chapters easily.
+version: 1.0.0
+homepage: https://github.com/AllBible/bible-chichewa-flutter
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    - assets/content/
+    - assets/resources/1/
+    - assets/resources/2/
+    - assets/resources/3/
+    - assets/resources/4/
+    - assets/resources/5/
+    - assets/resources/6/
+    - assets/resources/7/
+    - assets/resources/8/
+    - assets/resources/9/
+    - assets/resources/10/
+    - assets/resources/11/
+    - assets/resources/12/
+    - assets/resources/13/
+    - assets/resources/14/
+    - assets/resources/15/
+    - assets/resources/16/
+    - assets/resources/17/
+    - assets/resources/18/
+    - assets/resources/19/
+    - assets/resources/20/
+    - assets/resources/21/
+    - assets/resources/22/
+    - assets/resources/23/
+    - assets/resources/24/
+    - assets/resources/25/
+    - assets/resources/26/
+    - assets/resources/27/
+    - assets/resources/28/
+    - assets/resources/29/
+    - assets/resources/30/
+    - assets/resources/31/
+    - assets/resources/32/
+    - assets/resources/33/
+    - assets/resources/34/
+    - assets/resources/35/
+    - assets/resources/36/
+    - assets/resources/37/
+    - assets/resources/38/
+    - assets/resources/39/
+    - assets/resources/40/
+    - assets/resources/41/
+    - assets/resources/42/
+    - assets/resources/43/
+    - assets/resources/44/
+    - assets/resources/45/
+    - assets/resources/46/
+    - assets/resources/47/
+    - assets/resources/48/
+    - assets/resources/49/
+    - assets/resources/50/
+    - assets/resources/51/
+    - assets/resources/52/
+    - assets/resources/53/
+    - assets/resources/54/
+    - assets/resources/55/
+    - assets/resources/56/
+    - assets/resources/57/
+    - assets/resources/58/
+    - assets/resources/59/
+    - assets/resources/60/
+    - assets/resources/61/
+    - assets/resources/62/
+    - assets/resources/63/
+    - assets/resources/64/
+    - assets/resources/65/
+    - assets/resources/66/
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
