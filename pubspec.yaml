@@ -1,6 +1,6 @@
 name: bible_chichewa
 description: A chichewa Bible library to get verses and chapters easily.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/AllBible/bible-chichewa-flutter
 
 environment:

@@ -78,7 +78,7 @@ class Bible {
   /// Initializes the Bible by loading book data from a JSON file.
   Future<void> init() async {
     final jsonContent =
-        await rootBundle.loadString('assets/content/books.json');
+        await rootBundle.loadString('packages/bible_chichewa/assets/content/books.json');
     var list = json.decode(jsonContent) as List<dynamic>;
     books.addAll(list);
   }
@@ -90,7 +90,7 @@ class Bible {
   /// - [book]: The enum representing the book of the Bible.
   /// - [chapter]: The chapter number.
   Future<List<String>> _getFile(int book, int chapter) async {
-    var path = 'assets/resources/$book/$chapter.json';
+    var path = 'packages/bible_chichewa/assets/resources/$book/$chapter.json';
     final jsonContent = await rootBundle.loadString(path);
     var list = json.decode(jsonContent) as List<dynamic>;
     var verses = <String>[];
