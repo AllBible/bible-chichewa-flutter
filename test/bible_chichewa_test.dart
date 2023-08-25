@@ -10,11 +10,20 @@ void main() async {
     expect(bible.getBooks().length, 66);
   });
 
-  test('Chapter Checking', () async {
-    for (var book in BOOK.values) {
-      expect((await bible.getChapter(book, 1)).length > 1, true);
-    }
+  test('Check Missing Verses', () async {
+    expect((await bible.getChapter(BOOK.matthew, 17)).length > 1, true);
+    expect((await bible.getChapter(BOOK.matthew, 18)).length > 1, true);
+    expect((await bible.getChapter(BOOK.john, 5)).length == 47, true);
   });
+
+  test('Bible Check', () async {
+    for (var book in BOOK.values) {
+      for (var chapter = 1; chapter <= bible.getChapterCount(book); chapter++) {
+        print(book.toString() +" $chapter");
+        expect((await bible.getChapter(book, chapter)).length > 1, true);
+      }
+    } 
+  }); 
 
   test('Verse Check', () async {
     for (var book in BOOK.values) {
