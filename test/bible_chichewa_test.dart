@@ -19,7 +19,6 @@ void main() async {
   test('Bible Check', () async {
     for (var book in BOOK.values) {
       for (var chapter = 1; chapter <= bible.getChapterCount(book); chapter++) {
-        print(book.toString() +" $chapter");
         expect((await bible.getChapter(book, chapter)).length > 1, true);
       }
     } 
