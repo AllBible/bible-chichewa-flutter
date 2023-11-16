@@ -111,7 +111,7 @@ class Bible {
   /// - [verse]: The verse number.
   Future<String> getVerse(BOOK book, int chapter, int verse) async {
     var verses = await _getFile(book.index + 1, chapter);
-    return verses[verse + 1];
+    return verses[verse - 1];
   }
 
   /// Retrieves a range of verses from a book, chapter, and verse range.
