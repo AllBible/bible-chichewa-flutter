@@ -22,3 +22,8 @@
 - Mark 15:28.
 - Luke 17:36.
 - and more
+
+## [2.1.0] - 2023-11-16
+
+### Restore Missing Bible Verses
+- Fixed bug for getting individual verses.
